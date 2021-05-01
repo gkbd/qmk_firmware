@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000px" height="313px" viewBox="0 0 1020 320">
-	<title>Adaptive layout</title>
+	<title>Nari layout</title>
 	<style type="text/css">
 	rect
 		{fill:#707070;
@@ -39,7 +39,7 @@
 	</defs>
 
 	<!--
-		Adaptive layout
+		Nari layout
 		Ortholinear carpalx optimization
 		2021 Giorgi Chavchanidze
 		Public domain

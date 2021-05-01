@@ -1,6 +1,6 @@
-![Adaptive layout](layout.svg)
+![Nari layout](layout.svg)
 
-# Adaptive layout
+# Nari layout
 
 Ortholinear carpalx optimized layout with two adaptive keys.
 
@@ -13,3 +13,5 @@ Right adaptive key is
  * **r** after **eaoiu** vowels
  * *space* after *comma*
  * **i** otherwise
+
+Some documentation and resources (carpalx report, json configuration) are available at [https://lykt.xyz/nari/](https://lykt.xyz/nari/)

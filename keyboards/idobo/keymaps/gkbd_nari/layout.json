@@ -1,7 +1,7 @@
 {
   "version": 1,
   "author": "Giorgi Chavchanidze",
-  "notes": "Carpalx optimized adaptive layout",
+  "notes": "Carpalx optimized adaptive layout - https://lykt.xyz/nari/",
   "documentation": "JSON file can be uploaded to https://config.qmk.fm for preview",
   "keyboard": "idobo",
   "keymap": "nari",
