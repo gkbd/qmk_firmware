@@ -39,15 +39,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 		
         if (record->event.pressed) {
 
-			if (predecessor_key == KC_DOT) {
-				keycode = KC_SPC;
-			}
-			else {
-				keycode = promote_consonants()?KC_N:KC_A;
-			}
-				
+			keycode = promote_consonants()?KC_N:KC_A;
 			register_code(keycode);
 			right_adaptive_key = keycode;
+
 		}
 		else {
 			unregister_code(right_adaptive_key);
@@ -57,15 +52,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 		
         if (record->event.pressed) {
 
-			if (predecessor_key == KC_COMM) {
-				keycode = KC_SPC;
-			}
-			else {
-				keycode = promote_consonants()?KC_R:KC_I;
-			}
-				
+			keycode = promote_consonants()?KC_R:KC_I;
 			register_code(keycode);
 			left_adaptive_key = keycode;
+
 		}
 		else {
 			unregister_code(left_adaptive_key);

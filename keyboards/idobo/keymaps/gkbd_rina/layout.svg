@@ -16,26 +16,12 @@
 		text-shadow:silver 2px 2px 2px;
 		fill:yellow;
 		text-transform:uppercase;}
-	circle
-		{fill:silver;}
-	g polygon
-		{fill:gray;}
 	</style>
 	<defs>
 		<linearGradient id="gradient" x1="0" x2="1" y1="0" y2="1">
 			<stop offset="0%" stop-color="#909090"/>
 			<stop offset="100%" stop-color="#101010"/>
 		</linearGradient>
-		<g id="holes">
-			<polygon points="6,6 6,74 74,74 74,6"/>
-			<circle cx="33" cy="25" r="3"/>
-			<circle cx="47" cy="25" r="3"/>
-			<circle cx="20" cy="40" r="3"/>
-			<circle cx="40" cy="40" r="6"/>
-			<circle cx="60" cy="40" r="3"/>
-			<circle cx="55" cy="50" r="3"/>
-			<circle cx="30" cy="57" r="3"/>
-		</g>
 	</defs>
 
 	<!--
@@ -45,7 +31,8 @@
 		Public domain
 	-->
 
-	<polygon points="3,3 1318,3 1318,318 800,318 800,345 540,345 540,318 3,318" stroke-linejoin="round"/>
+	<polygon points="3,3 515,3 515,240 560,340 480,318 3,318" stroke-linejoin="round"/>
+	<polygon points="805,3 1318,3 1318,318 845,318 750,340 805,240" stroke-linejoin="round"/>
 
 	<!-- Top row -->
 
@@ -59,9 +46,7 @@
 	<text x="350" y="70">m</text>
 	<rect x="420" y="20" rx="5" ry="5" width="80" height="80"/>
 	<text x="450" y="70">w</text>
-	<use x="520" y="20" xlink:href="#holes"/>
-	<use x="620" y="20" xlink:href="#holes"/>
-	<use x="720" y="20" xlink:href="#holes"/>
+
 	<rect x="820" y="20" rx="5" ry="5" width="80" height="80"/>
 	<text x="850" y="70">g</text>
 	<rect x="920" y="20" rx="5" ry="5" width="80" height="80"/>
@@ -85,9 +70,7 @@
 	<text x="350" y="170">t</text>
 	<rect x="420" y="120" rx="5" ry="5" width="80" height="80"/>
 	<text x="450" y="170">c</text>
-	<use x="520" y="120" xlink:href="#holes"/>
-	<use x="620" y="120" xlink:href="#holes"/>
-	<use x="720" y="120" xlink:href="#holes"/>
+
 	<rect x="820" y="120" rx="5" ry="5" width="80" height="80"/>
 	<text x="850" y="170">u</text>
 	<rect x="920" y="120" rx="5" ry="5" width="80" height="80"/>
@@ -115,8 +98,6 @@
 	<text x="550" y="320">リ</text>
 
 	<!-- Left adaptive key is r after eaoiu vowels, and i otherwise -->
-
-	<use x="620" y="270" xlink:href="#holes"/>
 
 	<!-- Right adaptive key is n after eaoiu vowels, and a otherwise -->
 
