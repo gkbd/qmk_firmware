@@ -1,7 +1,7 @@
 {
   "version": 1,
   "author": "Giorgi Chavchanidze",
-  "notes": "Carpalx optimized adaptive layout - https://lykt.xyz/nari/#netto",
+  "notes": "Carpalx optimized adaptive layout - https://lykt.xyz/seal/#netto",
   "documentation": "JSON file can be uploaded to https://config.qmk.fm for preview",
   "keyboard": "idobo",
   "keymap": "netto",
