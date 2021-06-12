@@ -39,22 +39,22 @@
 	<rect x="8" y="8" rx="8" ry="5" width="80" height="80"/>
 	<text x="40" y="58">j</text>
 	<rect x="108" y="8" rx="8" ry="5" width="80" height="80"/>
-	<text x="140" y="58">n</text>
+	<text x="140" y="58">o</text>
 	<rect x="208" y="8" rx="8" ry="5" width="80" height="80"/>
 	<text x="240" y="58">u</text>
 	<rect x="308" y="8" rx="8" ry="5" width="80" height="80"/>
 	<text x="340" y="58">f</text>
 	<rect x="408" y="8" rx="8" ry="5" width="80" height="80"/>
-	<text x="440" y="58">g</text>
+	<text x="440" y="58">w</text>
 
 	<rect x="808" y="8" rx="8" ry="5" width="80" height="80"/>
-	<text x="840" y="58">p</text>
+	<text x="840" y="58">g</text>
 	<rect x="908" y="8" rx="8" ry="5" width="80" height="80"/>
-	<text x="940" y="58">w</text>
+	<text x="940" y="58">m</text>
 	<rect x="1008" y="8" rx="8" ry="5" width="80" height="80"/>
-	<text x="1040" y="58">m</text>
+	<text x="1040" y="58">p</text>
 	<rect x="1108" y="8" rx="8" ry="5" width="80" height="80"/>
-	<text x="1140" y="58">o</text>
+	<text x="1140" y="58">n</text>
 	<rect x="1208" y="8" rx="8" ry="5" width="80" height="80"/>
 	<text x="1240" y="58">q</text>
 
@@ -100,11 +100,11 @@
 	<rect x="708" y="250" rx="8" ry="5" width="80" height="80"/>
 	<text x="740" y="300">␣</text>
 	<rect x="808" y="208" rx="8" ry="5" width="80" height="80"/>
-	<text x="840" y="258">v</text>
+	<text x="840" y="258">k</text>
 	<rect x="908" y="208" rx="8" ry="5" width="80" height="80"/>
-	<text x="940" y="258">b</text>
+	<text x="940" y="258">v</text>
 	<rect x="1008" y="208" rx="8" ry="5" width="80" height="80"/>
-	<text x="1040" y="258">k</text>
+	<text x="1040" y="258">b</text>
 	<rect x="1108" y="208" rx="8" ry="5" width="80" height="80"/>
 	<text x="1140" y="258">z</text>
 

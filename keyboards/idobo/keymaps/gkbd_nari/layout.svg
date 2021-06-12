@@ -52,28 +52,28 @@
 	<rect x="20" y="20" rx="5" ry="5" width="80" height="80"/>
 	<text x="50" y="70">x</text>
 	<rect x="120" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="150" y="70">y</text>
+	<text x="150" y="70">a</text>
 	<rect x="220" y="20" rx="5" ry="5" width="80" height="80"/>
 	<text x="250" y="70">u</text>
 	<rect x="320" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="350" y="70">n</text>
+	<text x="350" y="70">r</text>
 	<rect x="420" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="450" y="70">b</text>
+	<text x="450" y="70">w</text>
 	<rect x="520" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="550" y="70">m</text>
+	<text x="550" y="70">f</text>
 	<rect x="620" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="650" y="70">r</text>
+	<text x="650" y="70">p</text>
 	<rect x="720" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="750" y="70">p</text>
+	<text x="750" y="70">m</text>
 	<rect x="820" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="850" y="70">f</text>
+	<text x="850" y="70">n</text>
 	<rect x="920" y="20" rx="5" ry="5" width="80" height="80"/>
 	<text x="950" y="70">q</text>
 
 	<!-- Home row -->
 
 	<rect x="20" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="50" y="170">c</text>
+	<text x="50" y="170">h</text>
 	<rect x="120" y="120" rx="5" ry="5" width="80" height="80"/>
 	<text x="150" y="170">o</text>
 	<rect x="220" y="120" rx="5" ry="5" width="80" height="80"/>
@@ -84,9 +84,9 @@
 	<!-- Left adaptive key is n after eaoiu vowels, space after full stop and a otherwise -->
 
 	<rect x="420" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="450" y="170">h</text>
+	<text x="450" y="170">l</text>
 	<rect x="520" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="550" y="170">l</text>
+	<text x="550" y="170">c</text>
 	<rect x="620" y="120" rx="5" ry="5" width="80" height="80"/>
 	<text x="650" y="170">リ</text>
 
@@ -104,17 +104,17 @@
 	<rect x="20" y="220" rx="5" ry="5" width="80" height="80"/>
 	<text x="50" y="270">z</text>
 	<rect x="120" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="150" y="270">v</text>
+	<text x="150" y="270">i</text>
 	<rect x="220" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="250" y="270">w</text>
+	<text x="250" y="270">y</text>
 	<rect x="320" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="350" y="270">a</text>
+	<text x="350" y="270">v</text>
 	<rect x="420" y="220" rx="5" ry="5" width="80" height="80"/>
 	<text x="450" y="270">,</text>
 	<rect x="520" y="220" rx="5" ry="5" width="80" height="80"/>
 	<text x="550" y="270">.</text>
 	<rect x="620" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="650" y="270">i</text>
+	<text x="650" y="270">b</text>
 	<rect x="720" y="220" rx="5" ry="5" width="80" height="80"/>
 	<text x="750" y="270">g</text>
 	<rect x="820" y="220" rx="5" ry="5" width="80" height="80"/>

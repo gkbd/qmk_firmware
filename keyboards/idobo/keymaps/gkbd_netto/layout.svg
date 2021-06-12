@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000px" height="272px" viewBox="0 0 1320 360">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000px" height="262px" viewBox="0 0 1300 340">
 	<title>Netto layout</title>
 	<style type="text/css">
 	rect
@@ -31,85 +31,81 @@
 		Public domain
 	-->
 
-	<polygon points="3,3 515,3 515,240 560,340 480,318 3,318" stroke-linejoin="round"/>
-	<polygon points="805,3 1318,3 1318,318 845,318 750,340 805,240" stroke-linejoin="round"/>
+	<polygon points="15,15 475,10 475,230 550,330 450,280 115,280 115,180 15,180" stroke-linejoin="round"/>
+	<polygon points="815,15 1275,15 1275,180 1175,180 1175,280 840,280 740,330 815,230" stroke-linejoin="round"/>
 
 	<!-- Top row -->
 
-	<rect x="20" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="50" y="70">,</text>
-	<rect x="120" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="150" y="70">.</text>
-	<rect x="220" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="250" y="70">u</text>
-	<rect x="320" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="350" y="70">g</text>
-	<rect x="420" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="450" y="70">y</text>
+	<rect x="8" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="40" y="58">,</text>
+	<rect x="108" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="140" y="58">.</text>
+	<rect x="208" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="240" y="58">u</text>
+	<rect x="308" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="340" y="58">f</text>
+	<rect x="408" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="440" y="58">w</text>
 
-	<rect x="820" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="850" y="70">w</text>
-	<rect x="920" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="950" y="70">m</text>
-	<rect x="1020" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="1050" y="70">p</text>
-	<rect x="1120" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="1150" y="70">b</text>
-	<rect x="1220" y="20" rx="5" ry="5" width="80" height="80"/>
-	<text x="1250" y="70">-</text>
+	<rect x="808" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="840" y="58">g</text>
+	<rect x="908" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="940" y="58">m</text>
+	<rect x="1008" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="1040" y="58">p</text>
+	<rect x="1108" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="1140" y="58">n</text>
+	<rect x="1208" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="1240" y="58">z</text>
 
 	<!-- Home row -->
 
-	<rect x="20" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="50" y="170">h</text>
-	<rect x="120" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="150" y="170">r</text>
-	<rect x="220" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="250" y="170">a</text>
-	<rect x="320" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="350" y="170">o</text>
-	<rect x="420" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="450" y="170">l</text>
+	<rect x="8" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="40" y="158">h</text>
+	<rect x="108" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="140" y="158">o</text>
+	<rect x="208" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="240" y="158">i</text>
+	<rect x="308" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="340" y="158">a</text>
+	<rect x="408" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="440" y="158">c</text>
 
-	<rect x="820" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="850" y="170">c</text>
-	<rect x="920" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="950" y="170">t</text>
-	<rect x="1020" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="1050" y="170">i</text>
-	<rect x="1120" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="1150" y="170">s</text>
-	<rect x="1220" y="120" rx="5" ry="5" width="80" height="80"/>
-	<text x="1250" y="170">d</text>
+	<rect x="808" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="840" y="158">l</text>
+	<rect x="908" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="940" y="158">r</text>
+	<rect x="1008" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="1040" y="158">t</text>
+	<rect x="1108" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="1140" y="158">s</text>
+	<rect x="1208" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="1240" y="158">d</text>
 
 	<!-- Bottom row -->
 
-	<rect x="20" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="50" y="270">j</text>
-	<rect x="120" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="150" y="270">'</text>
-	<rect x="220" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="250" y="270">f</text>
-	<rect x="320" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="350" y="270">e</text>
-	<rect x="420" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="450" y="270">x</text>
-	<rect x="520" y="270" rx="5" ry="5" width="80" height="80"/>
-	<text x="550" y="320">ネ</text>
+	<rect x="108" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="140" y="258">j</text>
+	<rect x="208" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="240" y="258">y</text>
+	<rect x="308" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="340" y="258">e</text>
+	<rect x="408" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="440" y="258">x</text>
+	<rect x="508" y="250" rx="8" ry="5" width="80" height="80"/>
+	<text x="540" y="300">ノ</text>
 
 	<!-- Adaptive key is n after eaoiu vowels, and e otherwise -->
 
-	<rect x="720" y="270" rx="5" ry="5" width="80" height="80"/>
-	<text x="750" y="320">␣</text>
-	<rect x="820" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="850" y="270">v</text>
-	<rect x="920" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="950" y="270">n</text>
-	<rect x="1020" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="1050" y="270">k</text>
-	<rect x="1120" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="1150" y="270">q</text>
-	<rect x="1220" y="220" rx="5" ry="5" width="80" height="80"/>
-	<text x="1250" y="270">z</text>
+	<rect x="708" y="250" rx="8" ry="5" width="80" height="80"/>
+	<text x="740" y="300">␣</text>
+	<rect x="808" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="840" y="258">k</text>
+	<rect x="908" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="940" y="258">v</text>
+	<rect x="1008" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="1040" y="258">b</text>
+	<rect x="1108" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="1140" y="258">q</text>
 
 </svg>

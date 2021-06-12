@@ -16,7 +16,7 @@
 
 #include QMK_KEYBOARD_H
 
-#define MIN_PROXIMITY 800
+#define MIN_PROXIMITY 8000
 
 uint16_t predecessor_key = KC_NO;
 uint16_t adaptive_key = KC_NO;
@@ -47,7 +47,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 		}
 	}
 
-	if (KC_A <= (keycode) && (keycode) <= KC_SLASH && record->event.pressed) {
+	if (record->event.pressed) {
 		if(keycode == KC_E || keycode == KC_A || keycode == KC_O || keycode == KC_I || keycode == KC_U) {
 			predecessor_key = KC_E;
 			vowel_proximity = timer_read();
@@ -62,17 +62,17 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[0] = LAYOUT_ortho_5x15(/* Base */
-			KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_BSLS, KC_SLSH, KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQL, KC_GRV,
-			KC_TAB, KC_COMM, KC_DOT, KC_U, KC_G, KC_Y, KC_LBRC, KC_RBRC, KC_W, KC_M, KC_P, KC_B, KC_MINS, KC_SCLN, KC_PSCR,
-			KC_CAPS, KC_H, KC_R, KC_A, KC_O, KC_L, KC_SLCK, KC_PAUS, KC_C, KC_T, KC_I, KC_S, KC_D, KC_ENT, KC_HOME,
-			KC_PGUP, KC_J, KC_QUOT, KC_F, KC_E, KC_X, KC_LGUI, KC_RALT, KC_V, KC_N, KC_K, KC_Q, KC_Z, KC_UP, KC_END,
-			KC_PGDN, KC_WAKE, MO(1), KC_INS, KC_DEL, EN, OSM(MOD_LSFT), KC_RCTL, KC_SPC, KC_BSPC, KC_APP, MO(1), KC_LEFT, KC_DOWN, KC_RGHT
+			KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5, KC_LBRC, LCTL(KC_X), KC_RBRC, KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQL,
+			KC_QUOT, KC_COMM, KC_DOT, KC_U, KC_F, KC_W, KC_LCBR, LCTL(KC_C), KC_RCBR, KC_G, KC_M, KC_P, KC_N, KC_Z, KC_MINS,
+			KC_SCLN, KC_H, KC_O, KC_I, KC_A, KC_C, KC_LPRN, LCTL(KC_V), KC_RPRN, KC_L, KC_R, KC_T, KC_S, KC_D, KC_SLSH,
+			LALT_T(KC_HOME), LCTL_T(KC_TAB), LSFT_T(KC_J), KC_Y, KC_E, KC_X, KC_PGUP, KC_UP, KC_PGDN, KC_K, KC_V, KC_B, RSFT_T(KC_Q), RCTL_T(KC_BSLS), RALT_T(KC_END),
+			LT(1,KC_ESC), LGUI_T(KC_PSCR), OSM(MOD_LCTL|MOD_LSFT), KC_CAPS, KC_DEL, EN, KC_LEFT, KC_DOWN, KC_RGHT, KC_SPC, KC_BSPC, KC_ENT, OSM(MOD_LCTL|MOD_LSFT), RGUI_T(KC_INS), LT(1,KC_APP)
 		),
 	[1] = LAYOUT_ortho_5x15(/* Function keys */
 			RESET, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, RGB_TOG,
 			KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-			KC_NO, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_NO, KC_NO, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_NO, KC_NO,
-			KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-			KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_F11, KC_TRNS, KC_TRNS, KC_F12, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO
+			KC_SLCK, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_NO, KC_NO, KC_NO, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_PAUS,
+			KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS,
+			KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_NO, KC_F11, KC_NO, KC_NO, KC_NO, KC_F12, KC_NO, KC_NO, KC_TRNS, KC_TRNS, KC_TRNS
 		)
 };
