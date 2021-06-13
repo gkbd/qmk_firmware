@@ -4,6 +4,7 @@
   "notes": "Carpalx optimized adaptive layout - https://lykt.xyz/seal/#real",
   "documentation": "JSON file can be uploaded to https://config.qmk.fm for preview",
   "keyboard": "idobo",
+  "keymap": "real",
   "layout": "LAYOUT_ortho_5x15",
   "layers": [
     [
