@@ -93,7 +93,7 @@
 	<rect x="408" y="208" rx="8" ry="5" width="80" height="80"/>
 	<text x="440" y="258">x</text>
 	<rect x="508" y="250" rx="8" ry="5" width="80" height="80"/>
-	<text x="540" y="300">ノ</text>
+	<text x="540" y="300">ネ</text>
 
 	<!-- Adaptive key is n after eaoiu vowels, and e otherwise -->
 
