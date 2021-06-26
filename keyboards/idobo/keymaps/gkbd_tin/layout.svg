@@ -74,9 +74,9 @@
 	<rect x="808" y="108" rx="8" ry="5" width="80" height="80"/>
 	<text x="840" y="158">l</text>
 	<rect x="908" y="108" rx="8" ry="5" width="80" height="80"/>
-	<text x="940" y="158">t</text>
+	<text x="940" y="158">r</text>
 	<rect x="1008" y="108" rx="8" ry="5" width="80" height="80"/>
-	<text x="1040" y="158">r</text>
+	<text x="1040" y="158">t</text>
 	<rect x="1108" y="108" rx="8" ry="5" width="80" height="80"/>
 	<text x="1140" y="158">s</text>
 	<rect x="1208" y="108" rx="8" ry="5" width="80" height="80"/>

@@ -8,4 +8,4 @@ Adaptive key is
  * **n** after **eaoiu** vowels
  * **e** otherwise
 
-Some documentation and resources (carpalx report, json configuration) are available at [https://lykt.xyz/seal/#netto](https://lykt.xyz/seal/#netto)
+Some documentation and resources (carpalx report, json configuration) are available at [https://lykt.xyz/rtsd/#netto](https://lykt.xyz/rtsd/#netto)
