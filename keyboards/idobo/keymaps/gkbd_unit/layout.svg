@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000px" height="308px" viewBox="0 0 1300 400">
+	<title>Unit layout</title>
+	<style type="text/css">
+	rect
+		{fill:#707070;
+		stroke:url(#gradient);
+		stroke-width:15;}
+	.home
+		{text-decoration:underline;
+		text-underline-offset:5px;}
+	polygon
+		{fill:#303030;
+		stroke:#101010;
+		stroke-width:5;}
+	text
+		{font-size:25px;
+		font-family:serif;
+		text-shadow:silver 2px 2px 2px;
+		fill:yellow;
+		text-transform:uppercase;}
+	</style>
+	<defs>
+		<linearGradient id="gradient" x1="0" x2="1" y1="0" y2="1">
+			<stop offset="0%" stop-color="#909090"/>
+			<stop offset="100%" stop-color="#101010"/>
+		</linearGradient>
+	</defs>
+
+	<!--
+		Unit layout
+		Ortholinear carpalx optimization
+		2021 Giorgi Chavchanidze
+		Public domain
+	-->
+
+	<polygon points="15,15 475,10 475,285 15,285" stroke-linejoin="round"/>
+	<polygon points="815,15 1275,15 1275,285 815,285" stroke-linejoin="round"/>
+	<polygon points="480,285 480,320 500,320 500,380 420,380 420,285" stroke-linejoin="round"/>
+	<polygon points="880,285 880,380 790,380 790,320 820,320 820,285" stroke-linejoin="round"/>
+
+	<!-- Top row -->
+
+	<rect x="8" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="40" y="58">,</text>
+	<rect x="108" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="140" y="58">z</text>
+	<rect x="208" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="240" y="58">w</text>
+	<rect x="308" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="340" y="58">y</text>
+	<rect x="408" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="440" y="58">x</text>
+
+	<rect x="808" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="840" y="58">g</text>
+	<rect x="908" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="940" y="58">p</text>
+	<rect x="1008" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="1040" y="58">v</text>
+	<rect x="1108" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="1140" y="58">n</text>
+	<rect x="1208" y="8" rx="8" ry="5" width="80" height="80"/>
+	<text x="1240" y="58">-</text>
+
+	<!-- Home row -->
+
+	<rect x="8" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="40" y="158">f</text>
+	<rect x="108" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="130" y="158">hm</text>
+	<!-- hm adaptive key returns m after vowels and consonants other then tscpgwx, and h otherwise -->
+	<rect x="208" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="240" y="158">e</text>
+	<rect x="308" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="340" y="158" class="home">a</text>
+	<rect x="408" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="440" y="158">o</text>
+
+	<rect x="808" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="840" y="158">d</text>
+	<rect x="908" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="940" y="158" class="home">t</text>
+	<rect x="1008" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="1040" y="158">␣</text>
+	<rect x="1108" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="1140" y="158">s</text>
+	<rect x="1208" y="108" rx="8" ry="5" width="80" height="80"/>
+	<text x="1240" y="158">c</text>
+
+	<!-- Bottom row -->
+
+	<rect x="8" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="40" y="258">.</text>
+	<rect x="108" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="140" y="258">j</text>
+	<rect x="208" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="240" y="258">m</text>
+	<rect x="308" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="340" y="258">q</text>
+	<rect x="408" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="440" y="258">'</text>
+
+	<rect x="808" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="840" y="258">k</text>
+	<rect x="908" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="940" y="258">b</text>
+	<rect x="1008" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="1040" y="258">i</text>
+	<rect x="1108" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="1140" y="258">h</text>
+	<rect x="1208" y="208" rx="8" ry="5" width="80" height="80"/>
+	<text x="1240" y="258">/</text>
+
+	<!-- Thumb keys -->
+
+	<rect x="408" y="308" rx="8" ry="5" width="80" height="80"/>
+	<text x="435" y="358" class="home">in</text>
+	<!-- in adaptive key returns n after eaoiu vowels, and i otherwise -->
+	<rect x="508" y="308" rx="8" ry="5" width="80" height="80"/>
+	<text x="540" y="358">u</text>
+
+	<rect x="708" y="308" rx="8" ry="5" width="80" height="80"/>
+	<text x="740" y="358">l</text>
+	<rect x="808" y="308" rx="8" ry="5" width="80" height="80"/>
+	<text x="840" y="358" class="home">r</text>
+
+</svg>
